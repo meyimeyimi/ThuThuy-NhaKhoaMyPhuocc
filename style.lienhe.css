@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.banner-text {
+    text-align: center;
+}
+
+.banner-text h1 {
+    margin-bottom: 10px; color: aqua
+}
+
+.container {
+    display: flex;
+}
+
+.container .contact-info,
+.container .support-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.container .contact-info h2,
+.container .support-info h2 {
+    margin-top: 0;
+}
+
+.banner {
+    background-color: #E5E5E5;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
